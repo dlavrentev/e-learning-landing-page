@@ -20,10 +20,33 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  border: none;
+  font-family: var(--ff-main);
 }
 
 body {
-  font-family: var(--ff-main);
   min-height: 100vh;
   background: var(--clr-white);
+  padding: 1rem 1rem 2.25rem 1rem;
+}
+
+/* HEADER  */
+
+.container__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__logo {
+}
+
+.header__btn {
+  height: 48px;
+  width: 140px;
+  background: var(--clr-font-black);
+  color: var(--clr-white);
+  font-weight: 700;
+  border-radius: 28px;
+  font-size: 16px;
 }
